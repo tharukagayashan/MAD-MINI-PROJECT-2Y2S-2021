@@ -1,3 +1,27 @@
 <resources>
     <string name="app_name">MAD_2nd_Year_2nd_Semester</string>
+    <string name="Header_Label">Book Your Ticket Easily</string>
+    <string name="FullName">Full Name</string>
+    <string name="Date">Date</string>
+    <string name="MobileNo">Mobile No</string>
+    <string name="ShowTime">Show Time</string>
+    <string name="Center">Center</string>
+    <string name="Count">Ticket Count</string>
+    <string name="FullNameBox">Tharuka Gayashan</string>
+    <string name="DateBox">16 02 2021</string>
+    <string name="MobileNumberBox">071455733</string>
+    <string name="BookingBtn">Place Your Ticket</string>
+    <string name="CancelBtn">Cancel</string>
+    <string name="ClearBtn">Clear</string>
+
+    <string name="Update_Booking_Label">Edit Ticket Details</string>
+    <string name="id">ID</string>
+    <string name="saveBtn">Save</string>
+
+    <string-array name="Spinner_items">
+        <item>Select one</item>
+        <item>Second one</item>
+        <item>Third one</item>
+    </string-array>
+
 </resources>

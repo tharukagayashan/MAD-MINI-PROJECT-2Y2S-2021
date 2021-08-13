@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MAD_2nd_Year_2nd_Semester">
-        <activity android:name=".Login_Page"></activity>
+        <activity android:name=".SignUpPage"></activity>
+        <activity android:name=".UserProfilepage" />
+        <activity android:name=".Resigstration_page" />
+        <activity android:name=".Login_Page" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MAD_2nd_Year_2nd_Semester">
-        <activity android:name=".CreditCardDetails"></activity>
+        <activity android:name=".PaymentHistorypage"></activity>
+        <activity android:name=".CreditCardDetails" />
         <activity android:name=".EditCardDetailsPage" />
         <activity android:name=".MasterCardpage" />
         <activity android:name=".Visapage" />

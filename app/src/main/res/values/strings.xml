@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MAD_2nd_Year_2nd_Semester</string>
+    <string name="app_name">BIT MOVIE</string>
     <string name="userName">Username</string>
     <string name="Name">Name</string>
     <string name="Email">Email</string>
@@ -21,14 +21,14 @@
     <string name="signin_password">.  Password</string>
     <string name="signinBtn">SIGN IN</string>
     <string name="linkurl">Do you have another Account?</string>
-
+    <string name="signUpUrl">SIGN UP</string>
 
     <string name="profilename">Name:</string>
     <string name="profileemail">Email:</string>
     <string name="profilephonenbr">Phone Number:</string>
     <string name="profileBirthday">Birth Day:</string>
     <string name="profilegender">Gender:</string>
-    <string name="profileUpdatebtn">Update Profile</string>
+    <string name="profileUpdatebtn">Update</string>
     <string name="profileDeletebtn">Delete</string>
 
 
@@ -69,4 +69,11 @@
     <string name="cardExpireDate">Expire Date:</string>
     <string name="CardUpdatebtn">Update</string>
     <string name="CardDeletebtn">Delete</string>
+
+    <string name="PaymentHistory">Payment History</string>
+    <string name="Paymentmethod">Payment method:</string>
+    <string name="Paymentdate">Payment Date:</string>
+    <string name="Paymenttime">Payment Time:</string>
+    <string name="clearbtn">Clear</string>
+
 </resources>

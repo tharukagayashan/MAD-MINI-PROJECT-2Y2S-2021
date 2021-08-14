@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MAD_2nd_Year_2nd_Semester</string>
+    <string name="app_name">BIT MOVIE</string>
     <string name="Header_Label">Book Your Ticket Easily</string>
     <string name="FullName">Full Name</string>
     <string name="Date">Date</string>
@@ -23,5 +23,10 @@
         <item>Second one</item>
         <item>Third one</item>
     </string-array>
+
+    <string name="label3">View Bookings</string>
+    <string name="updateticketbtn">Update Booking</string>
+    <string name="removebtn">Remove</string>
+    <string name="gotohomebtn">Go to home</string>
 
 </resources>

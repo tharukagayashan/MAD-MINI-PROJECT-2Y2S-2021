@@ -10,7 +10,7 @@
     <string name="ConfirmPassword">Confirm Password</string>
     <string name="SignUP">SIGNUP</string>
     <string name="Cancel">Cancel</string>
-
+    <string name="signupurl">Sign Up</string>
     <string-array name="Spinner_Items">
         <item>Male</item>
         <item>Female</item>
@@ -21,6 +21,35 @@
     <string name="signin_password">.  Password</string>
     <string name="signinBtn">SIGN IN</string>
     <string name="linkurl">Do you have another Account?</string>
-    <string name="signupurl">Sign Up</string>
 
+
+    <string name="profilename">Name:</string>
+    <string name="profileemail">Email:</string>
+    <string name="profilephonenbr">Phone Number:</string>
+    <string name="profileBirthday">Birth Day:</string>
+    <string name="profilegender">Gender:</string>
+    <string name="profileUpdatebtn">Update Profile</string>
+    <string name="profileDeletebtn">Delete</string>
+
+
+    <string name="paymentmethod">Select a payment method</string>
+    <string name="paymentcontinuebtn">Continue</string>
+
+
+    <string name="visaholdername">Card Holders Name</string>
+    <string name="visacardno">Card Number</string>
+    <string name="visaexpireMonth">Expire Month</string>
+    <string name="visaexpireYear">Expire Year</string>
+    <string name="visaccv">CVV Number</string>
+    <string name="visaCancelbtn">Cancel</string>
+    <string name="visapaybtn">payment</string>
+
+
+    <string name="Masterholdername">Card Holders Name</string>
+    <string name="Mastercardno">Card Number</string>
+    <string name="MasterexpireMonth">Expire Month</string>
+    <string name="MasterexpireYear">Expire Year</string>
+    <string name="Masterccv">CVV Number</string>
+    <string name="MasterCancelbtn">Cancel</string>
+    <string name="Masterpaybtn">payment</string>
 </resources>

@@ -52,4 +52,21 @@
     <string name="Masterccv">CVV Number</string>
     <string name="MasterCancelbtn">Cancel</string>
     <string name="Masterpaybtn">payment</string>
+
+    <string name="Editdetails">Edit Card Details</string>
+    <string name="Editholdername">Card Holders Name</string>
+    <string name="Editcardno">Card Number</string>
+    <string name="EditexpireMonth">Expire Month</string>
+    <string name="EditexpireYear">Expire Year</string>
+    <string name="Editccv">CVV Number</string>
+    <string name="EditCancelbtn">Cancel</string>
+    <string name="Editsavebtn">Save</string>
+
+
+    <string name="creditcarddetails">Credit Card Details</string>
+    <string name="cardholdername">Card Holder:</string>
+    <string name="cardcardno">Card Number:</string>
+    <string name="cardExpireDate">Expire Date:</string>
+    <string name="CardUpdatebtn">Update</string>
+    <string name="CardDeletebtn">Delete</string>
 </resources>

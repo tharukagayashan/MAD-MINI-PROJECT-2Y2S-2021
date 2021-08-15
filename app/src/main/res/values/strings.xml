@@ -75,5 +75,7 @@
     <string name="Paymentdate">Payment Date:</string>
     <string name="Paymenttime">Payment Time:</string>
     <string name="clearbtn">Clear</string>
+    <string name="EditUserLabel">Edit Profile</string>
+
 
 </resources>

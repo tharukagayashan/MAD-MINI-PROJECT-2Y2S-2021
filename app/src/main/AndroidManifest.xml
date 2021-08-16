@@ -9,7 +9,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MAD_2nd_Year_2nd_Semester">
-        <activity android:name=".SignUpPage"></activity>
+        <activity
+            android:name=".ticket_update_delete_admin"
+            android:exported="true" />
+        <activity
+            android:name=".Update_tickets_admin"
+            android:exported="true" />
+        <activity
+            android:name=".Add_tickets_admin"
+            android:exported="true" />
+        <activity
+            android:name=".select_ticket_type"
+            android:exported="true" />
+        <activity
+            android:name=".Tickets_available_cinama_halls"
+            android:exported="true" />
+        <activity android:name=".SignUpPage" />
         <activity android:name=".UserProfilepage" />
         <activity android:name=".Resigstration_page" />
         <activity android:name=".Login_Page" />

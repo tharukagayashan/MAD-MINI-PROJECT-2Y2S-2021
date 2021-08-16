@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MAD_2nd_Year_2nd_Semester">
+<<<<<<< HEAD
         <activity
             android:name=".ticket_update_delete_admin"
             android:exported="true" />
@@ -24,6 +25,16 @@
         <activity
             android:name=".Tickets_available_cinama_halls"
             android:exported="true" />
+=======
+        <activity android:name=".WelcomePage"></activity>
+        <activity android:name=".EditUserProfilePage" />
+        <activity android:name=".PaymentHistorypage" />
+        <activity android:name=".CreditCardDetails" />
+        <activity android:name=".EditCardDetailsPage" />
+        <activity android:name=".MasterCardpage" />
+        <activity android:name=".Visapage" />
+        <activity android:name=".paymentmethodpage" />
+>>>>>>> origin/master
         <activity android:name=".SignUpPage" />
         <activity android:name=".UserProfilepage" />
         <activity android:name=".Resigstration_page" />

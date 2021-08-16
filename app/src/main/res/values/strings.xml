@@ -10,7 +10,7 @@
     <string name="ConfirmPassword">Confirm Password</string>
     <string name="SignUP">SIGNUP</string>
     <string name="Cancel">Cancel</string>
-
+    <string name="signupurl">Sign Up</string>
     <string-array name="Spinner_Items">
         <item>Male</item>
         <item>Female</item>
@@ -21,6 +21,7 @@
     <string name="signin_password">.  Password</string>
     <string name="signinBtn">SIGN IN</string>
     <string name="linkurl">Do you have another Account?</string>
+<<<<<<< HEAD
     <string name="signupurl">Sign Up</string>
     <string name="headline">Available cinema halls</string>
     <string name="cinemahall_name1">Skyline matara</string>
@@ -67,5 +68,63 @@
     <string name="button_delete_4">delete</string>
     <string name="insert_new">Insert new ticket</string>
     <string name="movie_time">Time</string>
+=======
+    <string name="signUpUrl">SIGN UP</string>
+
+    <string name="profilename">Name:</string>
+    <string name="profileemail">Email:</string>
+    <string name="profilephonenbr">Phone Number:</string>
+    <string name="profileBirthday">Birth Day:</string>
+    <string name="profilegender">Gender:</string>
+    <string name="profileUpdatebtn">Update</string>
+    <string name="profileDeletebtn">Delete</string>
+
+
+    <string name="paymentmethod">Select a payment method</string>
+    <string name="paymentcontinuebtn">Continue</string>
+
+
+    <string name="visaholdername">Card Holders Name</string>
+    <string name="visacardno">Card Number</string>
+    <string name="visaexpireMonth">Expire Month</string>
+    <string name="visaexpireYear">Expire Year</string>
+    <string name="visaccv">CVV Number</string>
+    <string name="visaCancelbtn">Cancel</string>
+    <string name="visapaybtn">payment</string>
+
+
+    <string name="Masterholdername">Card Holders Name</string>
+    <string name="Mastercardno">Card Number</string>
+    <string name="MasterexpireMonth">Expire Month</string>
+    <string name="MasterexpireYear">Expire Year</string>
+    <string name="Masterccv">CVV Number</string>
+    <string name="MasterCancelbtn">Cancel</string>
+    <string name="Masterpaybtn">payment</string>
+
+    <string name="Editdetails">Edit Card Details</string>
+    <string name="Editholdername">Card Holders Name</string>
+    <string name="Editcardno">Card Number</string>
+    <string name="EditexpireMonth">Expire Month</string>
+    <string name="EditexpireYear">Expire Year</string>
+    <string name="Editccv">CVV Number</string>
+    <string name="EditCancelbtn">Cancel</string>
+    <string name="Editsavebtn">Save</string>
+
+
+    <string name="creditcarddetails">Credit Card Details</string>
+    <string name="cardholdername">Card Holder:</string>
+    <string name="cardcardno">Card Number:</string>
+    <string name="cardExpireDate">Expire Date:</string>
+    <string name="CardUpdatebtn">Update</string>
+    <string name="CardDeletebtn">Delete</string>
+
+    <string name="PaymentHistory">Payment History</string>
+    <string name="Paymentmethod">Payment method:</string>
+    <string name="Paymentdate">Payment Date:</string>
+    <string name="Paymenttime">Payment Time:</string>
+    <string name="clearbtn">Clear</string>
+    <string name="EditUserLabel">Edit Profile</string>
+
+>>>>>>> origin/master
 
 </resources>

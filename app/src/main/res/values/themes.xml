@@ -1,8 +1,8 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.MAD_2nd_Year_2nd_Semester" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Theme.MAD_2nd_Year_2nd_Semester" parent="Theme.MaterialComponents.Light">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimary">#e6b800</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
@@ -13,4 +13,26 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Title." parent="@android:style/TextAppearance">
+
+        <item name="android:textSize">10dp</item>
+        <item name="android:textColor">@color/title_color</item>
+        <item name="android:fontFamily">monospace</item>
+
+    </style>
+
+    <style name="Theme.MAD_2nd_Year_2nd_Semester.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.MAD_2nd_Year_2nd_Semester.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.MAD_2nd_Year_2nd_Semester.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
 </resources>
+
+    <!--<style name="Theme.MAD_2nd_Year_2nd_Semester" parent="Theme.MaterialComponents.DayNight.DarkActionBar">-->
+    <!--<item name="colorPrimary">@color/purple_500</item>-->

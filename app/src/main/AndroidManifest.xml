@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.mad_2nd_year_2nd_semester">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.mad_2nd_year_2nd_semester" >
 
     <application
         android:allowBackup="true"
@@ -8,12 +9,27 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MAD_2nd_Year_2nd_Semester">
-        <activity android:name=".SignUpPage"></activity>
+        android:theme="@style/Theme.MAD_2nd_Year_2nd_Semester" >
+        <activity
+            android:name=".movieReview"
+            android:exported="true" />
+        <activity
+            android:name=".UpdateandDelete"
+            android:exported="true" />
+        <activity
+            android:name=".updateMovie"
+            android:exported="true" />
+        <activity
+            android:name=".addnewmovie"
+            android:exported="true" />
+        <activity
+            android:name=".NowPlaying2"
+            android:exported="true" />
+        <activity android:name=".SignUpPage" />
         <activity android:name=".UserProfilepage" />
         <activity android:name=".Resigstration_page" />
         <activity android:name=".Login_Page" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

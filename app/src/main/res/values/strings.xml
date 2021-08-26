@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MAD_2nd_Year_2nd_Semester</string>
+    <string name="app_name">BIT MOVIE</string>
     <string name="userName">Username</string>
     <string name="Name">Name</string>
     <string name="Email">Email</string>
@@ -22,5 +22,60 @@
     <string name="signinBtn">SIGN IN</string>
     <string name="linkurl">Do you have another Account?</string>
     <string name="signupurl">Sign Up</string>
+
+
+    <string name="nowplaytopic">Now Plyaing</string>
+    <string name="updateTopic">Update Movie</string>
+    <string name="updatebutton">Update</string>
+    <string name="nameM">Movie Name</string>
+    <string name="categoryM">Movie Category</string>
+    <string name="ratingM">Ratings</string>
+    <string name="releaseM">Release Dtae</string>
+    <string name="thumbM">Thumbnails</string>
+    <string name="descM">Description</string>
+    <string name="updatendelete">Update and Delete</string>
+    <string name="savesubmit">save and Submit</string>
+    <string name="subbutton">Submit</string>
+    <string name="deletebutton">Remove</string>
+    <string name="movename1">Batman Dark Knight</string>
+    <string name="moviename2">Cloud Atlas</string>
+    <string name="moviename3">Inception</string>
+    <string name="moviename4">Hobbit</string>
+    <string name="title_activity_movie_review">MovieReview</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_transform">Transform</string>
+    <string name="menu_reflow">Reflow</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_settings">Settings</string>
+
+    <string name="lorem_ipsum_title">Lorem Ipsum"</string>
+    <string name="lorem_ipsum">Lorem Ipsum is simply placeholder text of the printing and
+        typesetting industry. Lorem Ipsum has been the industry\'s standard placeholder text ever
+        since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+        type specimen book"
+    </string>
+    <string name="reviewbutton"><![CDATA[>]]></string>
+    <string name="textreview">Movie name - Batman dark knight rises</string>
+    <string name="movierevie">Movie Review</string>
+    <string name="action_thriller">Action/Thriller</string>
+    <string name="other_movies">Other Movies</string>
+    <string name="entername">Batman Dark Knight Rises</string>
+    <string name="editcategory">Action/Thriller</string>
+    <string name="IDmovie">Movie ID</string>
+    <string name="editID">JKW223S1</string>
+    <string name="editeDate">July 16, 2012</string>
+    <string name="timeM">show times</string>
+    <string name="IDminput">JkX001</string>
+    <string name="releasedatemInput">16.07.2012</string>
+    <string name="categorymInput">Action/Thriller</string>
+    <string name="namemInput">The Dark Knight Rises</string>
+    <string name="timemInput">10.30 am  and  6.30 pm</string>
+
 
 </resources>

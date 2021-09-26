@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="40dp"
+    android:background="@drawable/sm_dc7b26c0d39aabe2dfb473d421f285aa"
+    tools:context=".SignUPPage">
+
+
+    <TextView
+
+        android:id="@+id/textsignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:gravity="center_horizontal"
+        android:text="SIGN UP"
+        android:textColor="@color/topicColor"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <EditText
+
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/edittextbackground"
+        android:backgroundTint="@color/cardview_shadow_start_color"
+        android:hint="Name"
+        android:paddingLeft="28dp"
+        android:textColorHint="@color/black"
+        android:textSize="25dp" />
+
+    <EditText
+
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/edittextbackground"
+        android:backgroundTint="@color/cardview_shadow_start_color"
+        android:hint="@string/Email"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="28dp"
+        android:textColorHint="@color/black"
+        android:textSize="25dp" />
+
+    <EditText
+
+        android:id="@+id/birthday"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/edittextbackground"
+        android:backgroundTint="@color/cardview_shadow_start_color"
+        android:hint="@string/birthday"
+        android:inputType="date"
+        android:paddingLeft="28dp"
+        android:textColorHint="@color/black"
+        android:textSize="25dp" />
+
+    <EditText
+
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/edittextbackground"
+        android:backgroundTint="@color/cardview_shadow_start_color"
+        android:hint="@string/phone_Number"
+        android:inputType="phone"
+        android:paddingLeft="28dp"
+        android:textColorHint="@color/black"
+        android:textSize="25dp" />
+
+
+
+
+
+    <EditText
+
+        android:id="@+id/Password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/edittextbackground"
+        android:backgroundTint="@color/cardview_shadow_start_color"
+        android:hint="@string/Password"
+        android:inputType="textPassword"
+        android:paddingLeft="28dp"
+        android:textColorHint="@color/black"
+        android:textSize="25dp" />
+
+
+    <EditText
+
+        android:id="@+id/ConfirmPassword"
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/edittextbackground"
+        android:backgroundTint="@color/cardview_shadow_start_color"
+        android:hint="@string/ConfirmPassword"
+        android:inputType="textPassword"
+        android:paddingLeft="28dp"
+        android:textColorHint="@color/black"
+        android:textSize="25dp" />
+
+
+    <Button
+
+        android:id="@+id/signup"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/topicColor"
+        android:text="@string/SignUP"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:paddingLeft="28dp"
+
+        />
+
+    <Button
+
+        android:id="@+id/cancle"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+
+        android:backgroundTint="@color/deleteBtn"
+        android:paddingLeft="28dp"
+        android:text="@string/Cancel"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        />
+
+
+
+</LinearLayout>

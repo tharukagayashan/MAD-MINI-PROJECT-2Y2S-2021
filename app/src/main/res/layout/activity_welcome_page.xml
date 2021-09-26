@@ -1,55 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="40dp"
+    android:background="@drawable/_fc67ead729460ff565ed68e94ca7a02"
+
     tools:context=".WelcomePage">
+
+
+    <TextView
+
+        android:id="@+id/bitmovie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:gravity="center_horizontal"
+        android:text="WELCOME TO BIT MOVIE"
+        android:textColor="@color/topicColor"
+        android:textSize="40dp"
+        android:textStyle="bold" />
 
     <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="411dp"
-        android:layout_height="726dp"
-        android:background="#4A4A48"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
-
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        android:layout_marginBottom="20dp"
+        app:srcCompat="@drawable/welcome" />
     <Button
-        android:id="@+id/button15"
-        android:layout_width="359dp"
-        android:layout_height="76dp"
-        android:text="Get Started"
-        android:textColor="#000000"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView6"
-        app:layout_constraintVertical_bias="0.929" />
-
-    <ImageView
-        android:id="@+id/imageView10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/whatsapp_image_2021_08_15_at_1_37_15_am" />
-
-    <TextView
-        android:id="@+id/textView59"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:text="WELCOME TO BIT MOVIE"
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
         android:textColor="#FFFFFF"
-        android:textSize="34sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:backgroundTint="#DF0D54"
+        android:textSize="35dp"
+        android:text="GET STARTED" />
+
+</LinearLayout>

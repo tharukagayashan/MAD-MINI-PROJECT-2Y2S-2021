@@ -1,80 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="40dp"
+    android:background="@drawable/abstract_design_background_blue_wave_vector_graphic_569530"
     tools:context=".paymentmethodpage">
 
     <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
-        android:text="@string/paymentmethod"
-        android:textColor="@color/topicColor"
-        android:textSize="34sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/button6"
-        android:layout_width="276dp"
-        android:layout_height="76dp"
-        android:layout_marginBottom="40dp"
-        android:text="@string/paymentcontinuebtn"
-        android:textSize="24sp"
-        app:backgroundTint="@color/design_default_color_error"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent" />
+        android:id="@+id/ptext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:gravity="center_horizontal"
+        android:text="Select Your Payment Method"
+        android:textColor="@color/topicColor"
+        android:textSize="30dp"
+        android:textStyle="bold" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="287dp"
-        android:layout_height="151dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView2"
-        app:layout_constraintEnd_toStartOf="@+id/radioButton"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3"
-        app:layout_constraintVertical_bias="0.647"
-        app:srcCompat="@drawable/_200px_visa_svg" />
+        android:layout_width="253dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="40dp"
+        app:srcCompat="@drawable/mastercardlogopng_" />
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="243dp"
+        android:layout_height="60dp"
+        android:text="Master Card"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="40dp"
+
+        android:backgroundTint="#D30B0B"/>
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="295dp"
-        android:layout_height="196dp"
-        android:layout_marginBottom="44dp"
-        app:layout_constraintBottom_toTopOf="@+id/button6"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.413"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/mastercardlogopng_" />
+        android:layout_width="253dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="40dp"
+        app:srcCompat="@drawable/_200px_visa_svg" />
 
-    <RadioButton
-        android:id="@+id/radioButton"
-        android:layout_width="53dp"
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="243dp"
         android:layout_height="70dp"
-        android:layout_marginTop="104dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
-        android:background="@color/white"
-        android:textColor="@color/black"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        android:text="Visa Card"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="40dp"
+        android:backgroundTint="#0A1760"/>
 
-    <RadioButton
-        android:id="@+id/radioButton2"
-        android:layout_width="62dp"
-        android:layout_height="68dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/imageView2"
-        app:layout_constraintTop_toBottomOf="@+id/radioButton"
-        app:layout_constraintVertical_bias="0.412" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

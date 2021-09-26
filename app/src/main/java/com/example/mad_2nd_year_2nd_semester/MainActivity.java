@@ -9,38 +9,29 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button button1,button2,button3;
+    Button viewAll,insert;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        button1 = findViewById(R.id.button1);
-        button2 = findViewById(R.id.button2);
-        button3 = findViewById(R.id.button3);
+               viewAll = findViewById(R.id.viewAll);
+               insert = findViewById(R.id.insert);
 
-        button1.setOnClickListener(new View.OnClickListener() {
+               viewAll.setOnClickListener(new View.OnClickListener() {
+                   @Override
+                   public void onClick(View v) {
+                       Intent intent = new Intent(MainActivity.this,ViewAllBooking.class);
+                       startActivity(intent);
+                   }
+               });
+
+        insert.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(MainActivity.this,TicketBookingPage.class);
-                startActivity(i);
-            }
-        });
-
-        button2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(MainActivity.this,UpdateBookingPage.class);
-                startActivity(i);
-            }
-        });
-
-        button3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(MainActivity.this,ViewBookingPage.class);
-                startActivity(i);
+                Intent intent = new Intent(MainActivity.this,TicketBookingPage.class);
+                startActivity(intent);
             }
         });
 

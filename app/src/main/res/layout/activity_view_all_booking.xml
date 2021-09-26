@@ -4,27 +4,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".ViewAllBooking">
 
-    <Button
-        android:id="@+id/insert"
-        android:layout_width="198dp"
-        android:layout_height="66dp"
-        android:text="Insert"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <TextView
+        android:id="@+id/Label"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="            All Bookings"
+        android:textSize="35dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/viewAll"
-        android:layout_width="198dp"
-        android:layout_height="66dp"
-        android:text="View All"
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="408dp"
+        android:layout_height="552dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.553"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.256" />
+        tools:ignore="MissingConstraints" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

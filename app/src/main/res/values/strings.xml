@@ -1,32 +1,39 @@
 <resources>
     <string name="app_name">BIT MOVIE</string>
-    <string name="Header_Label">Book Your Ticket Easily</string>
+    <string name="Header_Label">BOOK YOUR TICKETS</string>
     <string name="FullName">Full Name</string>
     <string name="Date">Date</string>
     <string name="MobileNo">Mobile No</string>
+    <string name="AvailableTickets">Available Tickets</string>
     <string name="ShowTime">Show Time</string>
     <string name="Center">Center</string>
     <string name="Count">Ticket Count</string>
-    <string name="FullNameBox">Tharuka Gayashan</string>
-    <string name="DateBox">16 02 2021</string>
-    <string name="MobileNumberBox">071455733</string>
+    <string name="FullNameBox">.  Tharuka Gayashan</string>
+    <string name="DateBox">.  16 02 2021</string>
+    <string name="MobileNumberBox">.  071XXXXXXX</string>
     <string name="BookingBtn">Place Your Ticket</string>
     <string name="CancelBtn">Cancel</string>
     <string name="ClearBtn">Clear</string>
-
     <string name="Update_Booking_Label">Edit Ticket Details</string>
     <string name="id">ID</string>
     <string name="saveBtn">Save</string>
-
-    <string-array name="Spinner_items">
-        <item>Select one</item>
-        <item>Second one</item>
-        <item>Third one</item>
-    </string-array>
-
     <string name="label3">View Bookings</string>
     <string name="updateticketbtn">Update Booking</string>
     <string name="removebtn">Remove</string>
     <string name="gotohomebtn">Go to home</string>
-
+    <string-array name="showtime">
+        <item>Select show Time</item>
+        <item>09:30AM</item>
+        <item>12:15PM</item>
+    </string-array>
+    <string-array name="center">
+        <item>Select Center</item>
+        <item>Matara</item>
+        <item>Galle</item>
+    </string-array>
+    <string-array name="ticketclass">
+        <item>Select Class</item>
+        <item>Class A</item>
+        <item>Class B</item>
+    </string-array>
 </resources>

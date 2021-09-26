@@ -51,7 +51,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     public void onUpgrade(SQLiteDatabase sqLiteDatabase, int i, int i1) {
         onCreate(sqLiteDatabase);
     }
-
+//Insert Data
     public boolean InsertData(Booking booking){
 
         SQLiteDatabase db = getWritableDatabase();
@@ -76,6 +76,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
     }
 
+    //Get all Data
     public List<Booking> getAllData(){
 
         List <Booking> bookings = new ArrayList<>();
@@ -103,6 +104,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         return bookings;
     }
 
+    //Update Bookings
     public int updateBooking(Booking booking){
 
         SQLiteDatabase db = getWritableDatabase();
@@ -127,6 +129,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         return status;
     }
 
+    //Delete Bookings
     public void deleteBooking(int id){
 
         SQLiteDatabase db = getWritableDatabase();
@@ -134,6 +137,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         db.close();
     }
 
+    //Get Single booking
     public Booking getSingleBooking(int id){
         SQLiteDatabase db = getWritableDatabase();
 

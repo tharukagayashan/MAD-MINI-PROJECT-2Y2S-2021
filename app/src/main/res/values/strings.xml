@@ -10,6 +10,7 @@
     <string name="ConfirmPassword">Confirm Password</string>
     <string name="SignUP">SIGNUP</string>
     <string name="Cancel">Cancel</string>
+
     <string name="signupurl">Sign Up</string>
     <string-array name="Spinner_Items">
         <item>Male</item>
@@ -21,8 +22,8 @@
     <string name="signin_password">.  Password</string>
     <string name="signinBtn">SIGN IN</string>
     <string name="linkurl">Do you have another Account?</string>
-<<<<<<< HEAD
-    <string name="signupurl">Sign Up</string>
+
+
     <string name="headline">Available cinema halls</string>
     <string name="cinemahall_name1">Skyline matara</string>
     <string name="book_time_1">10.30 am</string>
@@ -68,7 +69,6 @@
     <string name="button_delete_4">delete</string>
     <string name="insert_new">Insert new ticket</string>
     <string name="movie_time">Time</string>
-=======
     <string name="signUpUrl">SIGN UP</string>
 
     <string name="profilename">Name:</string>
@@ -125,6 +125,5 @@
     <string name="clearbtn">Clear</string>
     <string name="EditUserLabel">Edit Profile</string>
 
->>>>>>> origin/master
 
 </resources>

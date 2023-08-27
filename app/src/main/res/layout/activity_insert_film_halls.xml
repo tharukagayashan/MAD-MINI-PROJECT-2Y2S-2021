@@ -20,36 +20,39 @@
         android:layout_marginTop="20dp"
         android:layout_marginBottom="20dp"
         />
+
     <EditText
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
         android:id="@+id/hall_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/shape_1"
         android:hint="name"
-        android:textSize="25dp"
+        android:paddingLeft="20dp"
         android:textColorHint="@color/black"
-        android:background="@drawable/textbox"
-        android:layout_marginBottom="30dp"
-        android:paddingLeft="20dp"/>
+        android:textSize="25dp" />
+
     <EditText
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
         android:id="@+id/hall_location"
-        android:hint="location"
-        android:textSize="25dp"
-        android:textColorHint="@color/black"
-        android:background="@drawable/textbox"
-        android:layout_marginBottom="30dp"
-        android:paddingLeft="20dp"/>
-    <EditText
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:id="@+id/no_of_seats"
-        android:hint="no of seats"
-        android:textSize="25dp"
-        android:textColorHint="@color/black"
-        android:background="@drawable/textbox"
         android:layout_marginBottom="30dp"
-        android:paddingLeft="20dp"/>
+        android:background="@drawable/shape_1"
+        android:hint="location"
+        android:paddingLeft="20dp"
+        android:textColorHint="@color/black"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/no_of_seats"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/shape_1"
+        android:hint="no of seats"
+        android:paddingLeft="20dp"
+        android:textColorHint="@color/black"
+        android:textSize="25dp" />
     <Button
         android:layout_width="match_parent"
         android:layout_height="60dp"
@@ -64,16 +67,17 @@
         android:text="view all data"
         android:textSize="20dp"
         android:layout_marginBottom="6dp"/>
+
     <EditText
+        android:id="@+id/hall_id"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:id="@+id/hall_id"
-        android:hint="ID       only use when update or delete"
-        android:textSize="20dp"
-        android:textColorHint="@color/black"
-        android:background="@drawable/textbox"
         android:layout_marginBottom="6dp"
-        android:paddingLeft="20dp"/>
+        android:background="@drawable/shape_1"
+        android:hint="ID       only use when update or delete"
+        android:paddingLeft="20dp"
+        android:textColorHint="@color/black"
+        android:textSize="20dp" />
     <Button
         android:layout_width="match_parent"
         android:layout_height="60dp"

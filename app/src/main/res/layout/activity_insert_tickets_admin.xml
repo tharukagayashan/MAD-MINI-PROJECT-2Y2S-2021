@@ -29,62 +29,66 @@
         android:layout_marginTop="20dp"
         android:layout_marginBottom="20dp"
         />
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:id="@+id/ticket_type"
-        android:hint="Type"
-        android:textSize="25dp"
-        android:textColorHint="@color/black"
-        android:background="@drawable/textbox"
-        android:layout_marginBottom="10dp"
-        android:paddingLeft="20dp"/>
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:id="@+id/ticket_hallname"
-        android:hint="Hall ID"
-        android:textSize="25dp"
-        android:textColorHint="@color/black"
-        android:background="@drawable/textbox"
-        android:layout_marginBottom="10dp"
-        android:paddingLeft="20dp"
-        android:inputType="number"/>
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:id="@+id/ticket_price"
-        android:hint="Price"
-        android:textSize="25dp"
-        android:textColorHint="@color/black"
-        android:background="@drawable/textbox"
-        android:layout_marginBottom="10dp"
-        android:paddingLeft="20dp"
-        android:inputType="number"/>
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:id="@+id/ticket_count"
-        android:hint="Count"
-        android:textSize="25dp"
-        android:textColorHint="@color/black"
-        android:background="@drawable/textbox"
-        android:layout_marginBottom="10dp"
-        android:paddingLeft="20dp"
-        android:inputType="number"/>
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:id="@+id/ticket_time"
-        android:hint="Time"
-        android:textSize="25dp"
-        android:textColorHint="@color/black"
-        android:background="@drawable/textbox"
-        android:layout_marginBottom="10dp"
-        android:paddingLeft="20dp"
-        android:ems="10"
-        android:inputType="time" />
+            <EditText
+                android:id="@+id/ticket_type"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/shape_1"
+                android:hint="Type"
+                android:paddingLeft="20dp"
+                android:textColorHint="@color/black"
+                android:textSize="25dp" />
+
+            <EditText
+                android:id="@+id/ticket_hallname"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/shape_1"
+                android:hint="Hall ID"
+                android:inputType="number"
+                android:paddingLeft="20dp"
+                android:textColorHint="@color/black"
+                android:textSize="25dp" />
+
+            <EditText
+                android:id="@+id/ticket_price"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/shape_1"
+                android:hint="Price"
+                android:inputType="number"
+                android:paddingLeft="20dp"
+                android:textColorHint="@color/black"
+                android:textSize="25dp" />
+
+            <EditText
+                android:id="@+id/ticket_count"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/shape_1"
+                android:hint="Count"
+                android:inputType="number"
+                android:paddingLeft="20dp"
+                android:textColorHint="@color/black"
+                android:textSize="25dp" />
+
+            <EditText
+                android:id="@+id/ticket_time"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/shape_1"
+                android:ems="10"
+                android:hint="Time"
+                android:inputType="time"
+                android:paddingLeft="20dp"
+                android:textColorHint="@color/black"
+                android:textSize="25dp" />
     <Button
         android:layout_width="match_parent"
         android:layout_height="60dp"
@@ -99,16 +103,17 @@
         android:text="view all data"
         android:textSize="20dp"
         android:layout_marginBottom="6dp"/>
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:id="@+id/ticket_id"
-        android:hint="ID       only use when update or delete"
-        android:textSize="20dp"
-        android:textColorHint="@color/black"
-        android:background="@drawable/textbox"
-        android:layout_marginBottom="6dp"
-        android:paddingLeft="20dp"/>
+
+            <EditText
+                android:id="@+id/ticket_id"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="6dp"
+                android:background="@drawable/shape_1"
+                android:hint="ID       only use when update or delete"
+                android:paddingLeft="20dp"
+                android:textColorHint="@color/black"
+                android:textSize="20dp" />
     <Button
         android:layout_width="match_parent"
         android:layout_height="60dp"

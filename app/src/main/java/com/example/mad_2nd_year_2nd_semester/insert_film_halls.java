@@ -11,7 +11,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 public class insert_film_halls extends AppCompatActivity {
-    DatabaseHelper myDB;
+    //DatabaseHelper myDB;
     EditText editName, editLocation,editNo_of_seats ,edittextId;
     Button btnAddData;
     Button btnviewAll;
@@ -21,7 +21,7 @@ public class insert_film_halls extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_insert_film_halls);
-        myDB= new DatabaseHelper(this);
+        //myDB= new DatabaseHelper(this);
 
         editName=(EditText) findViewById(R.id.hall_name);
         editLocation=(EditText) findViewById(R.id.hall_location);
@@ -41,11 +41,11 @@ public class insert_film_halls extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        Integer deleteRows = myDB.deleteData(edittextId.getText().toString());
-                        if(deleteRows>0)
-                            Toast.makeText(insert_film_halls.this,"Data Deleted",Toast.LENGTH_LONG).show();
-                        else
-                            Toast.makeText(insert_film_halls.this,"Data not Deleted",Toast.LENGTH_LONG).show();
+                     //   Integer deleteRows = myDB.deleteData(edittextId.getText().toString());
+//                        if(deleteRows>0)
+//                            Toast.makeText(insert_film_halls.this,"Data Deleted",Toast.LENGTH_LONG).show();
+//                        else
+//                            Toast.makeText(insert_film_halls.this,"Data not Deleted",Toast.LENGTH_LONG).show();
 
                     }
                 }
@@ -54,67 +54,67 @@ public class insert_film_halls extends AppCompatActivity {
 
 
     public void UpdateData(){
-        btnUpdate.setOnClickListener(
-                new View.OnClickListener() {
-                    @Override
-                    public void onClick(View view) {
-                        boolean isUpdate= myDB.updateData(edittextId.getText().toString(),
-                                editName.getText().toString(),
-                                editLocation.getText().toString(),
-                                editNo_of_seats.getText().toString()
-                        );
-                        if(isUpdate==true)
-                            Toast.makeText(insert_film_halls.this,"Data Updated",Toast.LENGTH_LONG).show();
-                        else
-                            Toast.makeText(insert_film_halls.this,"Data not updated",Toast.LENGTH_LONG).show();
+//        btnUpdate.setOnClickListener(
+//                new View.OnClickListener() {
+//                    @Override
+//                    public void onClick(View view) {
+////                        boolean isUpdate= myDB.updateData(edittextId.getText().toString(),
+//                                editName.getText().toString(),
+//                                editLocation.getText().toString(),
+//                                editNo_of_seats.getText().toString()
+//                        );
+//                        if(isUpdate==true)
+//                            Toast.makeText(insert_film_halls.this,"Data Updated",Toast.LENGTH_LONG).show();
+//                        else
+//                            Toast.makeText(insert_film_halls.this,"Data not updated",Toast.LENGTH_LONG).show();
+//
+//
+//                    }
+//                }
 
-
-                    }
-                }
-
-        );
+//        );
 
     }
 
     public void AddData(){
-        btnAddData.setOnClickListener(
-                new View.OnClickListener() {
-                    @Override
-                    public void onClick(View view) {
-                        boolean isInserted= myDB.insertDATA(
-                                editName.getText().toString(),
-                                editLocation.getText().toString(),
-                                editNo_of_seats.getText().toString() );
-                        if(isInserted=true)
-                            Toast.makeText(insert_film_halls.this,"Data Inserted",Toast.LENGTH_LONG).show();
-                        else
-                            Toast.makeText(insert_film_halls.this,"Data not Inserted",Toast.LENGTH_LONG).show();
-
-                    }
-                }
-        );
+//        btnAddData.setOnClickListener(
+//                new View.OnClickListener() {
+//                    @Override
+//                    public void onClick(View view) {
+//                        boolean isInserted= myDB.insertDATA(
+//                                editName.getText().toString(),
+//                                editLocation.getText().toString(),
+//                                editNo_of_seats.getText().toString() );
+//                        if(isInserted=true)
+//                            Toast.makeText(insert_film_halls.this,"Data Inserted",Toast.LENGTH_LONG).show();
+//                        else
+//                            Toast.makeText(insert_film_halls.this,"Data not Inserted",Toast.LENGTH_LONG).show();
+//
+//                    }
+//                }
+//        );
     }
     public void viewAll(){
-        btnviewAll.setOnClickListener(
-                new View.OnClickListener(){
-                    @Override
-                    public void onClick(View view) {
-                        Cursor res=myDB.getAllData();
-                        if(res.getCount()==0){
-                            showMessage("Error","Nothing found");
-                            return;
-                        }
-                        StringBuffer buffer =new StringBuffer();
-                        while(res.moveToNext()){
-                            buffer.append("Id :"+res.getString(0)+"\n");
-                            buffer.append("Name :"+res.getString(1)+"\n");
-                            buffer.append("Location :"+res.getString(2)+"\n");
-                            buffer.append("No of Seats :"+res.getString(3)+"\n\n");
-                        }
-                        showMessage("Data", buffer.toString());
-                    }
-                }
-        );
+//        btnviewAll.setOnClickListener(
+//                new View.OnClickListener(){
+//                    @Override
+//                    public void onClick(View view) {
+//                        Cursor res=myDB.getAllData();
+//                        if(res.getCount()==0){
+//                            showMessage("Error","Nothing found");
+//                            return;
+//                        }
+//                        StringBuffer buffer =new StringBuffer();
+//                        while(res.moveToNext()){
+//                            buffer.append("Id :"+res.getString(0)+"\n");
+//                            buffer.append("Name :"+res.getString(1)+"\n");
+//                            buffer.append("Location :"+res.getString(2)+"\n");
+//                            buffer.append("No of Seats :"+res.getString(3)+"\n\n");
+//                        }
+//                        showMessage("Data", buffer.toString());
+//                    }
+//                }
+//        );
 
 
 
